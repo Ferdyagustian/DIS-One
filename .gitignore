@@ -2,11 +2,22 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 
 # Airflow specific
 saham_ingestion/temp_data/
 saham_ingestion/logs/
 saham_ingestion/dags/__pycache__/
+airflow.cfg
+webserver_config.py
+airflow.db
+
+# Secrets & Configs
+.env
+.env.*
+
+# Logs
+*.log
 
 # OS generated files
 .DS_Store
@@ -23,3 +34,12 @@ env/
 ENV/
 env.bak/
 venv.bak/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDEs
+.idea/
+*.swp
