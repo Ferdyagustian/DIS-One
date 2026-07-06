@@ -1,4 +1,4 @@
-# DIS One #1
+# DIS One 
 
 Pipeline data otomatis untuk mengekstrak harga saham harian dari Bursa Efek Indonesia (IHSG), membersihkannya, kemudian menyimpannya secara terstruktur di cloud. Dibangun di atas Apache Airflow dan berjalan melalui Docker, sehingga cukup dijalankan sekali dan pipeline akan bekerja secara otomatis setiap sore setelah bursa ditutup.
 
