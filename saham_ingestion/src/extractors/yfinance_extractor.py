@@ -1,9 +1,8 @@
 import yfinance as yf
 import logging
 
-
-# Konfigurasi logging basic
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# Catatan: logging.basicConfig() dihapus agar tidak bentrok dengan logging Airflow.
+# Airflow sudah mengelola konfigurasi logging secara internal.
 logger = logging.getLogger(__name__)
 
 class YFinanceExtractor:
